@@ -105,6 +105,14 @@
       <Name>CodeFirstIOCDemo.Dao.Core</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\Kvdp.BusinessLogic.Core.dll" />
+    <Content Include="bin\Debug\Kvdp.BusinessLogic.Core.pdb" />
+    <Content Include="bin\Debug\Kvdp.Dao.Core.dll" />
+    <Content Include="bin\Debug\Kvdp.Dao.Core.pdb" />
+    <Content Include="bin\Debug\Newtonsoft.Json.dll" />
+    <Content Include="bin\Debug\Newtonsoft.Json.xml" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>

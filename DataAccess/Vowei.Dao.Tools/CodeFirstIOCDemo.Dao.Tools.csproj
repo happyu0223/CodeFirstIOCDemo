@@ -71,6 +71,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="bin\Debug\kvdp.tools.exe.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
@@ -88,6 +89,35 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bin\Debug\ClearScript.dll" />
+    <Content Include="bin\Debug\EntityFramework.dll" />
+    <Content Include="bin\Debug\EntityFramework.SqlServer.dll" />
+    <Content Include="bin\Debug\EntityFramework.SqlServer.xml" />
+    <Content Include="bin\Debug\EntityFramework.xml" />
+    <Content Include="bin\Debug\Kvdp.BusinessLogic.Core.dll" />
+    <Content Include="bin\Debug\Kvdp.BusinessLogic.Core.pdb" />
+    <Content Include="bin\Debug\Kvdp.Core.dll" />
+    <Content Include="bin\Debug\Kvdp.Core.pdb" />
+    <Content Include="bin\Debug\Kvdp.Dao.Core.dll" />
+    <Content Include="bin\Debug\Kvdp.Dao.Core.pdb" />
+    <Content Include="bin\Debug\Kvdp.Dao.Frameworks.dll" />
+    <Content Include="bin\Debug\Kvdp.Dao.Frameworks.pdb" />
+    <Content Include="bin\Debug\kvdp.tools.exe" />
+    <Content Include="bin\Debug\kvdp.tools.pdb" />
+    <Content Include="bin\Debug\Microsoft.Practices.ServiceLocation.dll" />
+    <Content Include="bin\Debug\Microsoft.Practices.ServiceLocation.pdb" />
+    <Content Include="bin\Debug\Microsoft.Practices.ServiceLocation.xml" />
+    <Content Include="bin\Debug\Microsoft.Practices.Unity.dll" />
+    <Content Include="bin\Debug\Microsoft.Practices.Unity.xml" />
+    <Content Include="bin\Debug\Newtonsoft.Json.dll" />
+    <Content Include="bin\Debug\Newtonsoft.Json.xml" />
+    <Content Include="bin\Debug\System.Net.Http.Formatting.dll" />
+    <Content Include="bin\Debug\System.Net.Http.Formatting.xml" />
+    <Content Include="bin\Debug\System.Web.Http.dll" />
+    <Content Include="bin\Debug\System.Web.Http.WebHost.dll" />
+    <Content Include="bin\Debug\System.Web.Http.WebHost.xml" />
+    <Content Include="bin\Debug\System.Web.Http.xml" />
+    <Content Include="bin\Debug\Unity.WebApi.dll" />
     <Content Include="sample-init-script.js" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Kvdp.Api</name>
+    </assembly>
+    <members>
+        <member name="T:Com.Gm.CodeFirstIOCDemo.Api.AccountController">
+            <summary>
+            Handles login related staff.
+            </summary>
+        </member>
+        <member name="M:Com.Gm.CodeFirstIOCDemo.Api.TemplateController.CreateMilestones(System.Int32)">
+            <summary>
+            从指定的里程碑模板里创建里程碑列表
+            </summary>
+            <param name="templateId">指定的里程碑模板的Id</param>
+            <returns>创建的里程碑列表</returns>
+        </member>
+        <member name="T:Com.Gm.CodeFirstIOCDemo.Api.MvcApplication">
+            <summary>
+            定义 ASP.NET 应用程序中的所有应用程序对象共有的方法、属性和事件。
+            </summary>
+        </member>
+        <member name="T:Com.Gm.CodeFirstIOCDemo.Api.Bootstrap">
+            <summary>
+            OWIN startup class.
+            </summary>
+        </member>
+        <member name="M:Com.Gm.CodeFirstIOCDemo.Api.Bootstrap.Configuration(Owin.IAppBuilder)">
+            <summary>
+            OWIN start up method
+            </summary>
+            <param name="app">The app.</param>
+        </member>
+    </members>
+</doc>

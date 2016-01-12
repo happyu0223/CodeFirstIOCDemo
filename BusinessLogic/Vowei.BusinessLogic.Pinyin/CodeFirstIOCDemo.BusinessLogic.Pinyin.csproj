@@ -51,6 +51,14 @@
     <Compile Include="PinyinStyle.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\ChnCharInfo.dll" />
+    <Content Include="bin\Debug\ChnCharInfo.resources.dll" />
+    <Content Include="bin\Debug\ChnCharInfo.xml" />
+    <Content Include="bin\Debug\Vowei.BusinessLogic.Pinyin.dll" />
+    <Content Include="bin\Debug\Vowei.BusinessLogic.Pinyin.pdb" />
+    <Content Include="bin\Debug\zh-CN\ChnCharInfo.resources.dll" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

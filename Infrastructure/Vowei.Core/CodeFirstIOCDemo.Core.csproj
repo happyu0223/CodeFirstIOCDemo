@@ -123,6 +123,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bin\Debug\Kvdp.Core.dll" />
+    <Content Include="bin\Debug\Kvdp.Core.pdb" />
     <Content Include="Unity.WebAPI.README.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
